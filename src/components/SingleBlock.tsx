@@ -7,8 +7,7 @@ const SingeBlock: React.FC<Props> = ({ color }) => {
 
     return (
     <>
-        <div className={`single-block ${color}`}>
-        </div>
+        <div className={`single-block ${color}`}></div>
     </>)
 };
 
