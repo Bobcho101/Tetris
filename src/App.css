@@ -2,25 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-};
+}
 
 .single-block{
     width: 3em;
     height: 3em;
-    background-color: blue;
+    border-radius: 0.4em;
+    box-shadow:
+    inset -2px -2px 4px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.3),
+    0 0 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+    display: inline-block;
+    margin: 0.2em;
 }
 
 .red{
-     background-color: red;
+    background-color: red;
 }
 .blue{
     background-color: blue;
 }
 .green{
-     background-color: green;
+    background-color: green;
 }
 .yellow{
-     background-color: yellow;
+    background-color: yellow;
 }
 .orange{
     background-color: orange;
