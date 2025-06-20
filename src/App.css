@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 5em 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+}
+
+#start-btn{
+    padding: 1em 3em;
+    cursor: pointer;
+    background-color: chartreuse;
+    border-radius: 0.8em;
+}
+
+#arena{
+    width: 50em;
+    height: 60em;
+    border: 2px solid black;
+    padding: 0;
+}
+
 .single-block{
     width: 3em;
     height: 3em;
