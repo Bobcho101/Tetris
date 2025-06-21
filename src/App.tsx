@@ -7,17 +7,19 @@ const App: React.FC = () => {
 
     while (isGameRunning) {
 
-    }
+    };
 
     const startGame = () => {
         setIsGameRunning(true);
-    }
+    };
 
+    const randomNum = Math.random() * 10;
     return (
         <>
             <button onClick={startGame} id='start-btn'>Start Game</button>
             <div id='arena'>
-                <SingeBlock color='red' />
+                
+                {Array.from({ length: randomNum }).map((_, index) => (<SingeBlock color='red' />))}
             </div>
         </>
     )
